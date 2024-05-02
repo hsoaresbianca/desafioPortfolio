@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Currículo Online</title>
+    
+    <!-- NORMALIZE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/experiencia.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
+
+</head>
+
+<body>
+    <div class="main">
+        
+        <!-- Cabeçalho -->
+        <header class="header">
+            <img src="/assets/img/perfil.png" class="photo" alt="foto de Bianca Soares sorrindo, utilizando uma camisa de cor preta e com o fundo da foto na cor preta.">
+
+            <h1 class="title">
+                Olá,<br>eu sou a Bianca Soares
+            </h1>
+
+            <div class="information">
+                    <p class="cargo">Desenvolvedora Jr.</p>
+                    <p class="local">Curitiba - BR</p>
+                    <p class="telefone">(41) 99504-8008</p>
+                    <p class="email">biasoares.bianca@gmail.com</p>
+            </div>
+        </header>
+        
+        <!-- Idiomas -->
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+            
+            <div class="content">
+                <ul class="languages">
+                    <li><h3>Português</h3></li>
+                    <li><h3>Inglês</h3></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Portfólio -->
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <h3 class="title github"> Projeto 1</h3>
+                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+                    <li>
+                        <h3 class="title github"> Projeto 2</h3>
+                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+                    <li>
+                        <h3 class="title github"> Projeto 3</h3>
+                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Experiência Profissional -->
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+            <div class="content">
+                <ul class="experiencia">
+                    <li>
+                        <h3 class="title"> Front-end Developer</h3>
+                        <p class="data"> Jan 2020 - atualmente</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque earum et quaerat impedit modi, ad libero aperiam facere laboriosam optio beatae dicta, explicabo dolore culpa molestias. Quos enim ab eligendi.</p>
+                    </li>
+                    <li>
+                        <h3 class="title"> Front-end Developer</h3>
+                        <p class="data"> Jan 2020 - atualmente</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque earum et quaerat impedit modi, ad libero aperiam facere laboriosam optio beatae dicta, explicabo dolore culpa molestias. Quos enim ab eligendi.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+            
+            <div class="content">
+                <div class="skills">
+                    <!-- Hard Skills -->
+                    <section class="hard">
+                        <h3>Hard Skills:</h3>
+                        <ul>
+                            <li>
+                                <img src="/assets/img/skills/js.svg" alt="JavaScript" title="JavaScript">
+                            </li>
+                        </ul>
+                    </section>
+
+                    <!-- Soft Skills -->
+                    <section class="soft">
+                        <h3>Soft Skills:</h3>
+                        <ul>
+                            <li>habilidade pessoal</li>
+                            <li>habilidade pessoal</li>
+                            <li>habilidade pessoal</li>
+                            <li>habilidade pessoal</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+        
+
+    </div>
+    
+    <!-- JAVASCRIPT -->
+    <script src="/assets/js/acordeon.js"></script>
+
+</body>
+
+</html>
