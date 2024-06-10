@@ -26,120 +26,96 @@
 </head>
 
 <body>
-    <div class="main">
-        
-        <!-- Cabeçalho -->
+    <main class="main">
         <header class="header">
-            <img src="assets/img/perfil.png" class="photo" alt="foto de Bianca Soares sorrindo, utilizando uma camisa de cor preta e com o fundo da foto na cor preta.">
+            <img src="assets/img/perfil.png" alt="Foto de Perfil" class="photo" id="profile.photo">
 
             <h1 class="title">
-                Olá,<br>eu sou a Bianca Soares
+                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
             </h1>
 
             <div class="information">
-                    <p class="cargo">Desenvolvedora Jr.</p>
-                    <p class="local">Curitiba - BR</p>
-                    <p class="telefone">(41) 99504-8008</p>
-                    <p class="email">biasoares.bianca@gmail.com</p>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
+                <p class="phone">
+                    <a href="tel:(99) 99999-9999" id="profile.phone">Carregando...</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
+                </p>
             </div>
         </header>
-        
-        <!-- Idiomas -->
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Idiomas</h2>
-            </button>
-            
-            <div class="content">
-                <ul class="languages">
-                    <li><h3>Português</h3></li>
-                    <li><h3>Inglês</h3></li>
-                </ul>
-            </div>
-        </section>
 
-        <!-- Portfólio -->
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Portfólio</h2>
-            </button>
-            <div class="content">
-                <ul class="portfolio">
-                    <li>
-                        <h3 class="title github"> Projeto 1</h3>
-                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
-                    </li>
-                    <li>
-                        <h3 class="title github"> Projeto 2</h3>
-                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
-                    </li>
-                    <li>
-                        <h3 class="title github"> Projeto 3</h3>
-                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Experiência Profissional -->
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Experiência Profissional</h2>
-            </button>
-            <div class="content">
-                <ul class="experiencia">
-                    <li>
-                        <h3 class="title"> Front-end Developer</h3>
-                        <p class="data"> Jan 2020 - atualmente</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque earum et quaerat impedit modi, ad libero aperiam facere laboriosam optio beatae dicta, explicabo dolore culpa molestias. Quos enim ab eligendi.</p>
-                    </li>
-                    <li>
-                        <h3 class="title"> Front-end Developer</h3>
-                        <p class="data"> Jan 2020 - atualmente</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque earum et quaerat impedit modi, ad libero aperiam facere laboriosam optio beatae dicta, explicabo dolore culpa molestias. Quos enim ab eligendi.</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Skills -->
         <section class="acordeon">
             <button class="trigger" type="button">
                 <h2>Skills</h2>
             </button>
-            
+
             <div class="content">
                 <div class="skills">
-                    <!-- Hard Skills -->
-                    <section class="hard">
-                        <h3>Hard Skills:</h3>
-                        <ul>
-                            <li>
-                                <img src="assets/img/skills/js.svg" alt="JavaScript" title="JavaScript">
-                            </li>
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul id="profile.skills.hardSkills">
                         </ul>
                     </section>
 
-                    <!-- Soft Skills -->
-                    <section class="soft">
-                        <h3>Soft Skills:</h3>
-                        <ul>
-                            <li>habilidade pessoal</li>
-                            <li>habilidade pessoal</li>
-                            <li>habilidade pessoal</li>
-                            <li>habilidade pessoal</li>
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
                         </ul>
                     </section>
                 </div>
             </div>
         </section>
-        
 
-    </div>
-    
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages" id="profile.languages">
+                    <li>Carregando...</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
+
+            <div class="content">
+                <ul class="portfolio" id="profile.portfolio">
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience" id="profile.professionalExperience">
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <a href="https://www.dio.me/" target="_blank">
+                <img src="assets/img/dio.svg" alt="DIO">
+            </a>
+        </footer>
+    </main>
+            
     <!-- JAVASCRIPT -->
     <script src="assets/js/acordeon.js"></script>
-
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
