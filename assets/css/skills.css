@@ -4,7 +4,7 @@
 
 }
 
-.skills .hard ul{
+.skills .tools ul{
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -15,13 +15,13 @@
     list-style: none;
 }
 
-.skills .hard ul li img{
+.skills .tools ul li img{
     max-width: 50px;
     max-height: 50px;
     margin: 0 .5rem;
 }
 
-.skills .soft ul{
+.skills .personal ul{
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -31,7 +31,7 @@
     padding: 0;
 }
 
-.skills .soft ul li{
+.skills .personal ul li{
     margin-left: 2rem;
     padding: .5rem;
 }
