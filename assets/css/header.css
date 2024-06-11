@@ -39,15 +39,15 @@
     margin-right: .5rem;
 }
 
-.header .information .cargo::before{
+.header .information .job::before{
     background-image: url('../img/icons/cargo.svg');
 }
 
-.header .information .local::before{
+.header .information .location::before{
     background-image: url('../img/icons/local.svg');
 }
 
-.header .information .telefone::before{
+.header .information .phone::before{
     background-image: url('../img/icons/telefone.svg');
 }
 
