@@ -3,7 +3,7 @@
     "photo": "https://avatars.githubusercontent.com/u/122945054?v=4",
     "job": "Desenvolvedora Web",
     "location": "Curitiba/PR",
-    "phone": "(41) 995048008",
+    "phone": "(41) 99504-8008",
     "email": "biasoares.bianca@gmail.com",
     "skills": {
       "hardSkills": [
@@ -45,26 +45,26 @@
     ],
     "portfolio": [
       {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+        "name": "Projeto 1",
+        "url": "link",
         "github": true
       },
       {
-        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+        "name": "Projeto 2",
         "url": "https://github.com/RenanJPaula/js-developer-portfolio",
         "github": true
       }
     ],
     "professionalExperience": [
       {
-        "name": "Front-end Developer",
-        "period": "2022 - até o momento",
-        "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+        "name": "Nome",
+        "period": "Data",
+        "description": "Descrição"
       },
       {
-        "name": "Front-end Developer",
-        "period": "2021 - 2022",
-        "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+        "name": "Nome",
+        "period": "Data",
+        "description": "Descrição"
       }
     ]
 }
