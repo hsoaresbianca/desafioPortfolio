@@ -45,14 +45,34 @@
     ],
     "portfolio": [
       {
-        "name": "Projeto 1",
-        "url": "link",
+        "name": "DevLinks - Rocketseat",
+        "url": "https://hsoaresbianca.github.io/devlinks/",
         "github": true
       },
       {
-        "name": "Projeto 2",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+        "name": "PetLife - OneBitCode",
+        "url": "https://hsoaresbianca.github.io/petlife/",
         "github": true
+      },
+      {
+        "name": "LandingPage - Dio",
+        "url": "https://hsoaresbianca.github.io/LandingPage/",
+        "github":true
+      },
+      {
+        "name": "Jogo da Memória - Dio",
+        "url": "https://hsoaresbianca.github.io/jogoDaMemoria/",
+        "github":true
+      },
+      {
+        "name": "Simulador de Piano - Dio",
+        "url": "https://hsoaresbianca.github.io/pianoVirtual/",
+        "github":true
+      },
+      {
+        "name": "Jogo Detona Ralph - Dio",
+        "url": "https://hsoaresbianca.github.io/jogoDetonaRalph/",
+        "github":true
       }
     ],
     "professionalExperience": [
