@@ -77,14 +77,19 @@
     ],
     "professionalExperience": [
       {
-        "name": "Nome",
-        "period": "Data",
-        "description": "Descrição"
+        "name": "Advogada (autônoma)",
+        "period": "fevereiro/2022 até o momento",
+        "description": "Atividades realizadas: Redação de peças jurídicas. Realização de audiências. Análise processual e documental. Cumprimento de prazos. Pesquisa de doutrina e de jurisprudência."
       },
       {
-        "name": "Nome",
-        "period": "Data",
-        "description": "Descrição"
+        "name": "Assistente Jurídico (home office)",
+        "period": "março/2021 a fevereiro/2022",
+        "description": "Atividades realizadas: Redação de peças jurídicas. Pesquisa de doutrina e de jurisprudência. Análise processual e documental. Cumprimento de prazos."
+      },
+      {
+        "name": "Estagiária de graduação de Direito (Tribunal de Justiça do Estado do Paraná - TJPR)",
+        "period": "setembro/2019 a março/2021",
+        "description": "Atividades realizadas: Redação de relatórios e de decisões liminares. Pesquisa de jurisprudência. Análise processual e documental. Trabalho em equipe. Cumprimento de prazos."
       }
     ]
 }
