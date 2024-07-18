@@ -9,7 +9,9 @@
       "hardSkills": [
         {
           "name": "JavaScript",
-          "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+          "logo": "
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+          "
         },
         {
           "name": "HTML",
