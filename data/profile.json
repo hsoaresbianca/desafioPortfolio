@@ -9,19 +9,19 @@
       "hardSkills": [
         {
           "name": "JavaScript",
-          "logo": "https://github.com/hsoaresbianca/desafioPortfolio/blob/main/assets/img/skills/js.png"
+          "logo": "https://raw.githubusercontent.com/hsoaresbianca/desafioPortfolio/main/assets/img/skills/js.png"
         },
         {
           "name": "TypeScript",
-          "logo": "https://github.com/hsoaresbianca/desafioPortfolio/blob/main/assets/img/skills/ts.png"
+          "logo": "https://raw.githubusercontent.com/hsoaresbianca/desafioPortfolio/main/assets/img/skills/ts.png"
         },
         {
           "name": "Python",
-          "logo": "https://github.com/hsoaresbianca/desafioPortfolio/blob/main/assets/img/skills/py.png"
+          "logo": "https://raw.githubusercontent.com/hsoaresbianca/desafioPortfolio/main/assets/img/skills/py.png"
         },
         {
           "name": "HTML",
-          "logo": "https://github.com/hsoaresbianca/desafioPortfolio/blob/main/assets/img/skills/html.png"
+          "logo": "https://raw.githubusercontent.com/hsoaresbianca/desafioPortfolio/main/assets/img/skills/html.png"
         },
         {
           "name": "CSS",
@@ -29,15 +29,15 @@
         },
         {
           "name": "Git",
-          "logo": "https://github.com/hsoaresbianca/desafioPortfolio/blob/main/assets/img/skills/git.png"
+          "logo": "https://raw.githubusercontent.com/hsoaresbianca/desafioPortfolio/main/assets/img/skills/git.png"
         },
         {
           "name": "Github",
-          "logo": "https://github.com/hsoaresbianca/desafioPortfolio/blob/main/assets/img/skills/github.png"
+          "logo": "https://raw.githubusercontent.com/hsoaresbianca/desafioPortfolio/main/assets/img/skills/github.png"
         },
         {
           "name": "VScode",
-          "logo": "https://github.com/hsoaresbianca/desafioPortfolio/blob/main/assets/img/skills/vscode.png"
+          "logo": "https://raw.githubusercontent.com/hsoaresbianca/desafioPortfolio/main/assets/img/skills/vscode.png"
         }
       ],
       "softSkills": [
