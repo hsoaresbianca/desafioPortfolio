@@ -38,6 +38,10 @@
         {
           "name": "VScode",
           "logo": "https://raw.githubusercontent.com/hsoaresbianca/desafioPortfolio/main/assets/img/skills/vscode.png"
+        },
+        {
+          "name": "Figma",
+          "logo": "https://raw.githubusercontent.com/hsoaresbianca/desafioPortfolio/main/assets/img/skills/figma.png"
         }
       ],
       "softSkills": [
